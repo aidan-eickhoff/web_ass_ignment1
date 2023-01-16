@@ -15,22 +15,22 @@
             <span id="site" style="font-size: xx-large">mentor.nl</span>
         </div>
         <div class="centeralign">
-            <span class="link"><a href="/index.html">Logout</a></span>
+            <span class="link"><a href="./index.html">Logout</a></span>
             <span class="name">Your name here</span>
         </div>
     </header>
     <div id="main">
         <div id="login">
-            <form action="/student/" method="GET">
+            <form id="signin" action="./student/" method="GET">
                 <span>Please sign in:</span>
                 <input type="name" placeholder="Username" required>
                 <input type="password" placeholder="Password" required>
                 <button type="submit">Sign in </button>
-                <a href="/index.html">Forgot your password?</a>
+                <a href="./index.html">Forgot your password?</a>
             </form>
             <form action="/student/">
-                <button id="institutional" href="/student/">Institutional sign in</button>
-                <a href="/index.html" style="margin-top: 30px; font-size:medium;">Or make an account here.</a>
+                <button id="institutional">Institutional sign in</button>
+                <a href="./index.html" style="margin-top: max(30px, 10vh); font-size:medium;">Or make an account here.</a>
             </form>
         </div>
         <img src="img/child-cropped.png">
