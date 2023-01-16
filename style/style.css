@@ -8,3 +8,20 @@ header {
 header .name, header .link {
     float: right;
 }
+#header {
+    width:100%;
+    position: fixed;
+    border: 2px solid black;
+}
+
+#header * {
+    display: inline;
+}
+
+#logo {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
