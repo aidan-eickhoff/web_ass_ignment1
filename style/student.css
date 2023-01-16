@@ -16,6 +16,11 @@
     overflow-x: scroll;
 }
 
+.meeting_clickable:hover {
+    border: 1px solid lightblue;
+    cursor: pointer;
+}
+
 .meetings::-webkit-scrollbar {
     display: none;
 }
@@ -23,7 +28,6 @@
 .meeting {
     flex-shrink: 0;
     width: 400px;
-    border: 1px solid black;
     margin: 10px;
 }
 
