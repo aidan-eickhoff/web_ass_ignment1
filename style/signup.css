@@ -1,6 +1,6 @@
 #main {
     display: flex;
-    justify-content: space-evenly;   
+    justify-content: space-evenly;
     margin-top: 10%;
 }
 
@@ -41,4 +41,12 @@
 img {
     max-width: min(40%, 400px);
     object-fit: contain;
+}
+
+.inputalign {
+    display: flex;
+}
+
+.inputalign * {
+    width: 50%;
 }
