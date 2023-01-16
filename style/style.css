@@ -1,0 +1,10 @@
+header {
+    width: 100%;
+    background-color: blue;
+    float: left;
+    font-size: xxx-large;
+}
+
+header .link {
+    right: 0;
+}
