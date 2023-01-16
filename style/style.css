@@ -9,12 +9,11 @@ header {
     background-color: lightblue;
     display: flex;
     justify-content: space-between;
-    
+    font-family: system-ui;
 }
 
 header * {
     margin: 10px;
-
 }
 
 .centeralign {
@@ -30,4 +29,12 @@ header * {
     background-color: #FFFFFF;
     border-radius: 50%;
     display:inline-block;
+}
+
+.link a{
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: blue;
 }
