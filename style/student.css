@@ -29,6 +29,7 @@
 
 .meeting .name {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .meeting p {
@@ -39,4 +40,12 @@
 
 .white {
     color: white;
+}
+
+input {
+    border: 1px solid black;
+    padding: 2px 2px 2px 10px;
+    margin-top: 5px;
+    width: 200px;
+    height: 25px;
 }
