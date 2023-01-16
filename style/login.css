@@ -33,3 +33,8 @@
 #institutional:hover {
     background-color: lightblue;
 }
+
+img {
+    max-width: min(40%, 700px);
+    object-fit: contain;
+}
