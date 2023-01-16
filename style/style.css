@@ -5,6 +5,6 @@ header {
     font-size: xxx-large;
 }
 
-header .link {
-    right: 0;
+header .name, header .link {
+    float: right;
 }
