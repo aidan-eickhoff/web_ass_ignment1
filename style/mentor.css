@@ -57,6 +57,11 @@
     align-items: center;
 }
 
+.meeting_clickable:hover {
+    border: 1px solid lightblue;
+    cursor: pointer;
+}
+
 #timeslots * {
     margin: 10px 10px 0px 0px;
 }
